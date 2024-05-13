@@ -20,10 +20,10 @@
 
 // ** Параметры базы данных: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define( 'DB_NAME', 'agroplem_db' );
+define( 'DB_NAME', 'hometown_db' );
 
 /** Имя пользователя базы данных */
-define( 'DB_USER', 'agroplem_user' );
+define( 'DB_USER', 'hometown_user' );
 
 /** Пароль к базе данных */
 define( 'DB_PASSWORD', 'Yfehsp2023@@' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '0itG)}n%&l-&J.mRW%?iRUw^YVkW0ix0/(65:*hH;n(p5R;9;4tNZj(u<.b_#]*w' );
-define( 'SECURE_AUTH_KEY',  'HmYUTE%*NL3kEhM`7t^ W( n2<*OEmo@>w]Uw)LfAkg^GHZywaQ0kI15!F|%e_`{' );
-define( 'LOGGED_IN_KEY',    'hbi.z&$1 s!?uI&q[/ycD?kO`ra:^q,V:,}x-I[l<8BEh*%aXDYnA=uz(xBNi[iQ' );
-define( 'NONCE_KEY',        'BN=jnVlg~cxih:Fto7SgkX3I75LAa^}H/bd9*?CyUS;r&a={8sW`9.GRI`@F}RLz' );
-define( 'AUTH_SALT',        '_0hU0iZkx9d4JdO2B5YRVVDboC5pmkU+%9bLk[?2?@G)gDjDrl{kAhPC-~|W,IIj' );
-define( 'SECURE_AUTH_SALT', '7Fzi[S-Rup=8NoU[:)QGIt!}Df>iE<n``X}}`#sNqVbP[EwjU~+QpX@r0`o-g]cW' );
-define( 'LOGGED_IN_SALT',   'hClmi!Qz}oZ*X^a(;ISmWFC0IgOP$h&#fvwmA!$xSE8)jQ!ryQ70$8NOnd[WsUcw' );
-define( 'NONCE_SALT',       '}]wU``S5|*~-<F=HPX0+mKe}XH9SJuI67se@RSz,>UVDGHNDQ4F;._4J)s}ceZAs' );
+define( 'AUTH_KEY',         'px7wZOpUp@YZGYAA:VDg3gq;HZlBifF3a7jOrZ.-L(|PXD.&9diE]!g(:/v9i~Uz' );
+define( 'SECURE_AUTH_KEY',  'dnDQ[+j+3,dbbMqF}X[$s:u%-a9=P<MVm_`2F~ZP.$h&k(a1>ocs^)BiR L(HTpm' );
+define( 'LOGGED_IN_KEY',    'F]5k{s#Y7fe+8*KPE4BA3*Iz=^qaRPIlS2za^GZz$BfRs5~(Oa)Rrkc@V;a.f@?L' );
+define( 'NONCE_KEY',        'i1C!NSSz7aDYeOyhuVA}*WG..`dfwNgrbUO?DMEo=j+&wuvz{<_7=.ri-;r{u^wo' );
+define( 'AUTH_SALT',        'c-$W#p~HJzryWYyI(yX_G6@D3Z13-6Eb^zupk/<z):7o&UGv/c{;@AEd2L<hd< k' );
+define( 'SECURE_AUTH_SALT', 'v3[Ab4gUn(go40dw2We7H2Qtqgtyf!tm8Vl2J)^ie(tl=h;]gLxDTxvJC8F|5nY{' );
+define( 'LOGGED_IN_SALT',   '=),#$]$m8sq(s#dc_y:^sq.6I.=vq:+7y0xMn,,UBT41uVO0(Hqsl_? @UcR7.|T' );
+define( 'NONCE_SALT',       's!s<~)MyK`%F<sLEtD/#mxAtyB_Qb>AL+[Ns1xLmJT:>p~X~@`43e1a0+cM:0[E#' );
 
 /**#@-*/
 
