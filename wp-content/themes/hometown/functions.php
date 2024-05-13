@@ -139,6 +139,8 @@ add_action( 'widgets_init', 'hometown_widgets_init' );
  */
 function hometown_scripts() {
 	wp_enqueue_style( 'hometown-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_enqueue_style( 'hometown-main', get_template_directory_uri() . '/css/main.css');
+	#wp_enqueue_style( 'bootstrap_icons', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css');
 	wp_style_add_data( 'hometown-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'hometown-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );

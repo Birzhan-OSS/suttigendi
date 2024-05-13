@@ -20,10 +20,10 @@
 
 // ** Параметры базы данных: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define( 'DB_NAME', 'hometown_db' );
+define( 'DB_NAME', 'suttigen_wp' );
 
 /** Имя пользователя базы данных */
-define( 'DB_USER', 'hometown_user' );
+define( 'DB_USER', 'suttigen_user' );
 
 /** Пароль к базе данных */
 define( 'DB_PASSWORD', 'Yfehsp2023@@' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'px7wZOpUp@YZGYAA:VDg3gq;HZlBifF3a7jOrZ.-L(|PXD.&9diE]!g(:/v9i~Uz' );
-define( 'SECURE_AUTH_KEY',  'dnDQ[+j+3,dbbMqF}X[$s:u%-a9=P<MVm_`2F~ZP.$h&k(a1>ocs^)BiR L(HTpm' );
-define( 'LOGGED_IN_KEY',    'F]5k{s#Y7fe+8*KPE4BA3*Iz=^qaRPIlS2za^GZz$BfRs5~(Oa)Rrkc@V;a.f@?L' );
-define( 'NONCE_KEY',        'i1C!NSSz7aDYeOyhuVA}*WG..`dfwNgrbUO?DMEo=j+&wuvz{<_7=.ri-;r{u^wo' );
-define( 'AUTH_SALT',        'c-$W#p~HJzryWYyI(yX_G6@D3Z13-6Eb^zupk/<z):7o&UGv/c{;@AEd2L<hd< k' );
-define( 'SECURE_AUTH_SALT', 'v3[Ab4gUn(go40dw2We7H2Qtqgtyf!tm8Vl2J)^ie(tl=h;]gLxDTxvJC8F|5nY{' );
-define( 'LOGGED_IN_SALT',   '=),#$]$m8sq(s#dc_y:^sq.6I.=vq:+7y0xMn,,UBT41uVO0(Hqsl_? @UcR7.|T' );
-define( 'NONCE_SALT',       's!s<~)MyK`%F<sLEtD/#mxAtyB_Qb>AL+[Ns1xLmJT:>p~X~@`43e1a0+cM:0[E#' );
+define( 'AUTH_KEY',         '7F<=#MAo2Fxn9oZf0D(&91{7z6}%$/{~BFeWZsd)E/GHiY.bF/U}>g $2i%X+El~' );
+define( 'SECURE_AUTH_KEY',  '(xq(.T/M6 Q.}Fx#pl0SM?nuuu>8LZ]If(BaY%_L1J_(&O[p_hjT$>:K^`T-G.ut' );
+define( 'LOGGED_IN_KEY',    'QLJ]D9o(97*NH^;)6|C@EQ$jmD)7>{K^lXll`q^2Y#f+c;6s@-a|qk4:<osT5/Aw' );
+define( 'NONCE_KEY',        'f.t{rfJqv-KKHk8gM!X=q?G?(hK)D{pAy: ocWb00K7FpKVzrQ3Sox1[*Jn nyH,' );
+define( 'AUTH_SALT',        '+OuMiQ>?qo1.A$z4ad60kOmTiW}_Q3dlc|}KY.ZxiS;=*sh$@tYl#x0a}7So/]Mi' );
+define( 'SECURE_AUTH_SALT', 'ji}+).e=i!@d54kL,?1-$JP>,cv&-6J;m:potf6)%;tOvJ.@A{uu[:ldoS4T+hMK' );
+define( 'LOGGED_IN_SALT',   '(_xJm!+jNky2B,A_.fhQWfbs$fVlt/a/_--eG%d^*kq-L:<:l#IB_V(>As~A^;R_' );
+define( 'NONCE_SALT',       'lW@2&Ev<3ArFjL2z+RL#3=MfA[zXAPPc<j`rX/GbfC*]fy>rk7IKrOp92da%,GbV' );
 
 /**#@-*/
 
