@@ -11965,3 +11965,51 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.announcement-bar {
+  font-size: 1rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.418);
+}
+.announcement-bar__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  list-style: none;
+  display: inline-flex;
+  margin: 0 -10px;
+}
+.announcement-bar__list li {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+.announcement-bar a {
+  text-decoration: none;
+}
+@media (max-width: 991.98px) {
+  .announcement-bar {
+    display: none;
+  }
+}
+
+.main-navigation {
+  font-weight: 600;
+}
+.main-navigation .current-menu-item {
+  background-color: red;
+}
+.main-navigation a {
+  color: #020202;
+  padding: 0.6rem 1.4rem;
+}
+.main-navigation a:hover {
+  background-color: red;
+}
+.main-navigation .menu-toggle {
+  background-color: rgb(127, 172, 245);
+  color: #020202;
+  border: none;
+}
+
+.carousel-item {
+  height: 500px !important;
+}

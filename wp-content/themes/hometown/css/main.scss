@@ -1,1 +1,67 @@
 @import "./bootstrap/scss/bootstrap";
+
+$primary : rgb(127, 172, 245);
+$gray: #E6E6E6;
+
+$theme-colors: (
+	"primary": $primary,
+	"gray": $gray
+);
+
+
+//header
+.announcement-bar {
+	font-size: 1rem;
+	border-bottom: 1px solid rgba(128, 128, 128, 0.418);
+
+
+	&__list {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		list-style: none;
+		display: inline-flex;
+		margin: 0 -10px;
+
+		li {
+			margin: 0 10px;
+			display: flex;
+			align-items: center;
+		}
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	@include media-breakpoint-down(lg) {
+		display: none;
+	}
+}
+
+.main-navigation {
+	font-weight: 600;
+
+	.current-menu-item {
+		background-color: red;
+	}
+
+	a {
+		color: #020202;
+		padding: 0.6rem 1.4rem;
+	}
+
+	a:hover {
+		background-color: red;
+	}
+
+	.menu-toggle {
+		background-color: $primary;
+		color: #020202;
+		border: none;
+	}
+}
+
+.carousel-item {
+	height: 500px !important;
+}
